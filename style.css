@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Agu+Display&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Yuji+Mai&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+header {
+  min-height: 80vh;
+  background-color: lightgrey;
+  position: relative;
+  /* background-image: url(images/darkgreybgc.jpg); */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header .image {
+  width: 350px;
+  height: 80vh;
+  background-color: rgb(255, 119, 0);
+  margin-left: 95px;
+}
+.image img {
+  position: absolute;
+
+  top: -71px;
+  left: -180px;
+  height: 124%;
+  width: 65%;
+}
+
+header h2 {
+  position: absolute;
+  left: -0px;
+  display: inline;
+  padding: 5px;
+  font-size: 30px;
+}
+.food {
+  color: rgb(255, 119, 0);
+  margin-left: 14px;
+}
+.panda {
+  color: aliceblue;
+  margin-left: 8px;
+}
+nav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+}
+.content {
+  position: absolute;
+  right: 190px;
+  top: 160px;
+  width: 450px;
+}
+.content h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(255, 119, 0);
+  font-family: "Space Grotesk", serif;
+}
+.content p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px;
+  padding: 5px;
+  color: black;
+  font-family: "Roboto Condensed", serif;
+}
+.content button {
+  margin: 10px;
+
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 119, 0);
+  color: aliceblue;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-around;
+}
+.foot .box {
+  margin: 30px 20px 20px 20px;
+}
+.foot .box h2,
+p {
+  margin-bottom: 10px;
+}
+footer .copyright {
+  text-align: center;
+  font-size: 14px;
+}
+footer {
+  min-height: 30vh;
+  background-color: rgb(255, 119, 0);
+}
+.card-list .card-item {
+  width: 100% !important;
+  height: 500px !important;
+
+  background-color: aliceblue;
+}
+
+.delicious-deals {
+  min-height: 40vh;
+
+  margin: 20px 0px;
+}
+.dd-mainheading {
+  text-align: center;
+  margin: 10px 0px;
+  background-color: orange;
+}
+.dd-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+  background-color: orange;
+
+  justify-content: space-around;
+}
+.dd-card {
+  height: 400px;
+  width: 250px;
+  background-color: rgb(255, 255, 197);
+  border: 2px solid black;
+  margin: 20px;
+  border-radius: 40px;
+  position: relative;
+}
+.dd-card a {
+  text-decoration: none;
+}
+.dd-card img {
+  height: 50%;
+  margin: 5px;
+}
+.dd-card h2 {
+  margin: 5px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Agu Display", serif;
+  color: black;
+}
+.dd-card p {
+  color: black;
+  padding: 10px;
+}
+
+.dd-card2 p {
+  font-size: 20px;
+  /* margin: 10px; */
+  padding: 30px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.dd-card2 h2 {
+  margin-top: 20px;
+  color: red;
+  font-size: 35px;
+}
+.dd-card1 {
+  position: relative;
+}
+.dd-card1 img {
+  height: 60%;
+}
+.dd-card1 h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: red;
+}
+.dd-card1 p {
+  margin: 5px 20px;
+  font-size: 20px;
+}
+.top-picks {
+  /* border: 2px solid red; */
+  margin: 20px 0px;
+  /* background-color: rgba(232, 232, 69, 0.478); */
+}
+.top-picks h2 {
+  text-align: center;
+  background-color: orange;
+  margin: 10px 0px;
+}
+.imagecrousel img {
+  height: 500px;
+  width: 100vw;
+  margin: 20px 0px;
+}
